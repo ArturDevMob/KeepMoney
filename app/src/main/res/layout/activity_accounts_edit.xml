@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/periwinkle_crayola"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include_toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_account"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/title_edit_text"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/hint_title_account"
+            android:gravity="right"
+            android:background="@color/periwinkle_crayola"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/opening_balance"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/opening_balance_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="0"
+            android:background="@color/periwinkle_crayola"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number|textPersonName|text|textEmailAddress|phone"
+            android:text="@string/def_value_opening_balance" />
+
+        <TextView
+            android:id="@+id/currency_type_text_view"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="EURO"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_weight="0"
+            android:background="@drawable/right_arrow" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">KeepMoney</string>
+    <string name="add_account">Создание счета</string>
+    <string name="add_category">Создание категории</string>
+    <string name="accounts_empty_message">У вас нет счетов. Счета - это место, где хранятся ваши расходы и доходы.</string>
+    <string name="transaction_empty_message">На данном счете ещё не было транзакций. Транзакции - это операция дохода или расхода в приложении.</string>
+    <string name="category_empty_message">Список категорий пуст. Создайте категории, чтобы удобно разделять транзакции.</string>
+    <string name="create_account">Создать счет</string>
+    <string name="create_transaction">Создать транзакцию</string>
+    <string name="new_transaction">Новая транзакция</string>
+    <string name="choice_category">Выбор категории</string>
+    <string name="new_category">Новая категория</string>
+    <string name="categories">Категории</string>
+    <string name="accounts">Счета</string>
+    <string name="settings">Настройки</string>
+    <string name="about_app">О приложении</string>
+    <string name="title_dialog_account">Выберите действие</string>
+    <string name="title_dialog_account_set_currency_type">Выберите тип валюты</string>
+    <string name="title_account">Название счета</string>
+    <string name="opening_balance">Начальный баланс</string>
+    <string name="hint_title_account">Название счета</string>
+    <string name="def_value_opening_balance">0.00</string>
+    <string name="successful_add_account">Новый счет успешно создан</string>
+    <string name="error_create_account">Ошибка создания нового счета!</string>
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel_selected_category">Отменить выбранную категория</string>
+    <string name="default_currency_type">Основной тип валюты</string>
+    <string name="category_management">Управление категориями</string>
+    <string name="category_management_desc">Создайте свои категории для транзакций</string>
+    <string name="clear_data">Очистить все данные</string>
+    <string name="clear_data_desc">Будет произведена полная очистка данных. Восстановление не возможно!</string>
+
+    <string name="edit_category_title">Название</string>
+    <string name="edit_category_title_hint">Название</string>
+    <string name="new_category_expense">Новая категория расходов</string>
+    <string name="new_category_income">Новая категория доходов</string>
+    <string name="changing_category">Изменение категории</string>
+
+    <string name="edit_transaction_title">Заголовок</string>
+    <string name="edit_transaction_title_hint">Заголовок</string>
+    <string name="edit_transaction_description">Описание</string>
+    <string name="edit_transaction_description_hint">Описание</string>
+    <string name="edit_transaction_amount">Сумма</string>
+    <string name="add_review">Оставить отзыв</string>
+    <string name="general_balance">Общий баланс:</string>
+    <string name="account_balance">Баланс счета:</string>
+    <string name="income">Доход</string>
+    <string name="expense">Расход</string>
+    <string name="category">Категория</string>
+    <string name="date_time">Дата и время</string>
+    <string name="not_selected">Не выбранно</string>
+    <string name="cancel">Отменить</string>
+    <string name="accept">Принять</string>
+    <string name="error_show">Ошибка (Показать)</string>
+    <string name="dialog_title_general_balance">Общий баланс всех счетов</string>
+    <string name="dialog_description_general_balance">Как подсчитывается общий баланс всех счетов, если счета имеют разные типы валют. Если у вас в настройках приложения, в разделе "Основной тип валюты" установленно значение RUB, а счета имеют типы валют USD или EUR. В таком случае, приложение получает курс RUB к USD или EUR из сети и пересчитывает баланс счета USD в RUB. Курс валют запрашивается из сети 1 раз в 6 часов.</string>
+
+    <string name="dialog_title_general_balance_error">Ошибка</string>
+    <string name="dialog_description_general_balance_error">Приложению не удалось получить курс валют из сети, возможно из-за отсутствия на телефоне сети. Приложение получает курс валют для конвертации баланса счетов с разным типом валют.</string>
+
+    <string-array name="management_account">
+        <item>Изменить</item>
+        <item>Удалить</item>
+        <item>Отменить</item>
+    </string-array>
+
+    // Этот массив связан с models/CurrencyType
+    <string-array name="currency_type">
+        <item>RUB</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>BYN</item>
+        <item>KZT</item>
+        <item>UAH</item>
+    </string-array>
+
+    <string name="description_app"><b>KeepMoney</b> – Это быстрый и удобный финансовый помощник! В приложении, вы можете хранить всю историю своих доходов и расходов. Для удобства, вы можете создавать неограниченно количество счетов, в которых сможете хранить свои транзакции.
+\n \nБлагодаря KeepMoney, вы всегда будете в курсе своих доходов и расходов, что позволит производить оптимизацию над ними.
+\n\nПриложение полностью бесплатно и не содержит навязчивой рекламы.</string>
+</resources>

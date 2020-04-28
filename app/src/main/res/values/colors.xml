@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b466d</color>
+    <color name="colorPrimaryDark">#2b466d</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="periwinkle_crayola">#e5f1f6</color>
+    <color name="brilliant_green">#4CAF50</color>
+    <color name="deep_yellow_pink">#F44336</color>
+    <color name="brilliant_green_50_alpha">#B34CAF50</color>
+
+</resources>
