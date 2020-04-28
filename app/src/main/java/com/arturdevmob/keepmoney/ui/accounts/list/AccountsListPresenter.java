@@ -21,6 +21,8 @@ public class AccountsListPresenter<V extends AccountsListMvpView> extends BasePr
     @Inject
     public AccountsListPresenter(DataManager dataManager) {
         super(dataManager);
+
+        mCompositeDisposable = new CompositeDisposable();
     }
 
     @Override
