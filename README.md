@@ -13,26 +13,6 @@ The following technologies and tools were used:
 
 [Install from google play](https://play.google.com/store/apps/details?id=com.arturdevmob.keepmoney)
 
-#### Home (Accounts list)
-![](https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/1.png)
+<img src="https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/1.png" width="210" /> <img src="https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/2.png" width="210" /> <img src="https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/3.png" width="210" /> <img src="https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/4.png" width="210" /> <img src="https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/5.png" width="210" /> <img src="https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/6.png" width="210" /> <img src="https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/7.png" width="210" /> <img src="https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/8.png" width="210" />
 
-#### Account transactions
-![](https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/2.png)
 
-#### Account transactions
-![](https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/3.png)
-
-#### Creation account
-![](https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/4.png)
-
-#### Adding transaction
-![](https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/5.png)
-
-#### App settings
-![](https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/6.png)
-
-#### Categories list
-![](https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/7.png)
-
-#### Adding category
-![](https://raw.githubusercontent.com/ArturDevMob/KeepMoney/master/images/8.png)
